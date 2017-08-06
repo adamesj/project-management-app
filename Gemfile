@@ -18,6 +18,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'tether-rails'
 gem "haml-rails", "~> 0.9"
+gem 'devise'
+gem 'milia', '~>1.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -36,3 +38,4 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
