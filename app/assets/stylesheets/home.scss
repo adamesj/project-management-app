@@ -1,3 +1,36 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+
+.jumbotron {
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  h2 {
+    font-size: 35px !important;
+    .lead {
+      font-family: 'Helvetica Neue' !important;
+      font-size: 30px !important;
+    }
+  }
+}
+
+.plan {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: 700;
+  size: 120%;
+}
+
+.sign-up {
+  margin-top: 5px;
+}
+
+.extra {
+  color: #5cb85c;
+}
