@@ -20,6 +20,7 @@ gem 'tether-rails'
 gem "haml-rails", "~> 0.9"
 gem 'devise'
 gem 'milia', '~>1.3'
+gem 'high_voltage', '~> 3.0.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
